@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="./flexbox.css" rel="stylesheet" />
+	<title>Document</title>
+</head>
+<body>
+	<h1 class="main-text">Welcome to CSS Flex properties demo.</h1>
+	<h3>Type 1: Simple flex</h3>
+	<div>
+		<div class="box1">
+			<div>One</div>
+			<div>Two</div>
+			<div>Three
+				<br>has
+				<br>extra
+				<br>text
+			</div>
+		</div>
+	</div>
+	<h3>Type 3: With Flex direction - Flex-direction have property- row, row-reverse, column, clumn-reverse</h3>
+	<div>
+		This is row.
+		<div class="box2">
+			<div>One</div>
+			<div>Two</div>
+			<div>Three</div>
+		</div>
+	</div>
+	<div>
+		This is row-reverse.
+		<div class="box3">
+			<div>One</div>
+			<div>Two</div>
+			<div>Three</div>
+		</div>
+	</div>
+	<div>
+		This is coloumn
+		<div class="box4">
+			<div>One</div>
+			<div>Two</div>
+			<div>Three</div>
+		</div>
+	</div>
+	<div>
+		This is column-reverse.
+		<div class="box5">
+			<div>One</div>
+			<div>Two</div>
+			<div>Three</div>
+		</div>
+	</div>
+
+	<h3>Flex3 : With wrap properties, flexbox will try to wrap to below line if it does not fit into. It have properties nowrap, wrap and wrap-reverse</h3>
+	<h4>Using flex-flow, we can use flex-direction and flex-wrap properties in one. For example flex-flow: row wrap; flex-flow: column-reverse nowrap</h4>
+	<div>
+		This is no-wrap property.
+		<div class="box6">
+			<div>One</div>
+			<div>Two</div>
+			<div>Three</div>
+		</div>
+	</div>
+	<div>
+		This is wrap property.
+		<div class="box7">
+			<div>One</div>
+			<div>Two</div>
+			<div>Three</div>
+		</div>
+	</div>
+	<div>
+		This is wrap-reverse property.
+		<div class="box8">
+			<div>One</div>
+			<div>Two</div>
+			<div>Three</div>
+		</div>
+	</div>
+	<h3>`Flex: flex-grow flex-shrink flex-basis` property combines the `flex-grow`, `flex-shrink` and `flex-basis` property. It should be given to the child of the flex container.</h3>
+	<h4>It defines how should item takes the remaining space if we have less items in flex box.</h4>
+	<div>
+		<div class="box9">
+			<div>One</div>
+			<div>Two</div>
+			<div>It has more content then it siblings, But allocate same space to all.Please add more content to this. Thanks</div>
+		</div>
+	</div>
+</body>
+</html>

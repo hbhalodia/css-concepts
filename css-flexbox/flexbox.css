@@ -1,0 +1,122 @@
+.main-text {
+  text-align: center;
+  color: hotpink;
+}
+
+.box1 {
+  display: flex;
+  border: 1px solid blue;
+  padding: 5px;
+  margin: 5px;
+}
+.box1 div {
+  border: 1px solid pink;
+  padding: 5px;
+}
+
+.box2 {
+  display: flex;
+  border: 1px solid blue;
+  padding: 5px;
+  margin: 5px;
+  flex-direction: row;
+}
+.box2 div {
+  border: 1px solid pink;
+  padding: 5px;
+}
+
+.box3 {
+  display: flex;
+  border: 1px solid green;
+  padding: 5px;
+  margin: 5px;
+  flex-direction: row-reverse;
+}
+.box3 div {
+  border: 1px solid pink;
+  padding: 5px;
+}
+
+.box4 {
+  display: flex;
+  border: 1px solid yellow;
+  padding: 5px;
+  margin: 5px;
+  flex-direction: column;
+}
+.box4 div {
+  border: 1px solid pink;
+  padding: 5px;
+}
+
+.box5 {
+  display: flex;
+  border: 1px solid red;
+  padding: 5px;
+  margin: 5px;
+  flex-direction: column-reverse;
+}
+.box5 div {
+  border: 1px solid pink;
+  padding: 5px;
+}
+
+.box6 {
+  display: flex;
+  border: 1px solid red;
+  padding: 5px;
+  margin: 5px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.box6 div {
+  border: 1px solid pink;
+  padding: 5px;
+  width: 60%;
+}
+
+.box7 {
+  display: flex;
+  border: 1px solid cyan;
+  padding: 5px;
+  margin: 5px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.box7 div {
+  border: 1px solid pink;
+  padding: 5px;
+  width: 60%;
+}
+
+.box8 {
+  display: flex;
+  border: 1px solid greenyellow;
+  padding: 5px;
+  margin: 5px;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+.box8 div {
+  border: 1px solid pink;
+  padding: 5px;
+  width: 60%;
+}
+
+.box9 {
+  display: flex;
+  border: 1px solid greenyellow;
+  padding: 5px;
+  margin: 5px;
+  flex-flow: row nowrap;
+}
+.box9 div {
+  border: 1px solid pink;
+  padding: 5px;
+}
+.box9 > * {
+  flex: 1 1 0;
+}
+
+/*# sourceMappingURL=flexbox.css.map */
