@@ -1,0 +1,61 @@
+* {
+	color: hotpink;
+}
+.yellow {
+	color: yellow;
+}
+
+article p:first-of-type {
+	color: red;
+	font-size: 40px;
+}
+
+#rad {
+	border: 1px solid blue;
+}
+
+[data-type="primary"] {
+	color: beige;
+}
+
+/* A href that contains "example.com" */
+[href*='example.com'] {
+	color: red;
+}
+
+/* A href that starts with https */
+[href^='https'] {
+	color: green;
+}
+
+/* A href that ends with .com */
+[href$='.com'] {
+	color: blue;
+}
+
+a:hover {
+	outline: 1px dotted green;
+}
+
+/* Sets all even paragraphs to have a different background */
+p:nth-child(even) {
+	background: grey;
+}
+
+.yellow::before {
+	content: 'Prefix - ';
+}
+
+.yellow::after {
+	content: '- Suffix';
+}
+
+li::marker {
+	color: red;
+	
+}
+
+::selection {
+	background: black;
+	color: white;
+}
