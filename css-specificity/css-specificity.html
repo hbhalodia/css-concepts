@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="./css-specificity.css" rel="stylesheet" />
+		<title>CSS Specificity</title>
+	</head>
+	<body>
+		<button class="branding">Hello, Specificity!</button>
+		<ul>
+			<li>
+				Universal Selector : 0 points.
+			</li>
+			<li>
+				Element ( div ) or psuedo element ( :: ) : 1 points
+			</li>
+			<li>
+				Class ( .my-class ), psueod-class( : ), attriburte( [href='#'] ) - 10 points
+			</li>
+			<li>
+				ID Selector( #myID ) - 100 points, not as an attribute ( [id="myID"] ).
+			</li>
+			<li>
+				Inline style have - 1000 points.
+			</li>
+			<li>
+				! importtant have highest Specificity - 10,000 points.
+			</li>
+		</ul>
+		<a class="my-class another-class" href="#">A link</a>
+		<h1>Visualise Specificity : ( most specific to low specific ( id - 1, class - 0 , element pseudo - 0 ) > ( 0, 1, 0 ) ) </h1>
+		<button class="my-button" onclick="alert('hello')">Click me</button>
+	</body>
+</html>

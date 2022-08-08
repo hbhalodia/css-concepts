@@ -1,0 +1,37 @@
+button {
+	color: red;
+	padding: 1px;
+}
+
+.branding {
+	color: blue;
+	padding: 10px;
+}
+
+a { /* Specificty - 1 */
+	color: red;
+}
+
+a.my-class {/* Specificty - 11 */
+	color: green;
+}
+
+a.my-class.another-class { /* Specificty - 21 */
+	color: rebeccapurple;
+}
+
+a.my-class.another-class[href] { /* Specificty - 31 */
+	color: goldenrod;
+}
+
+a.my-class.another-class[href]:hover { /* Specificty - 41 */
+	color: lightgrey;
+}
+
+.my-button {
+	background: blue;
+}
+
+button[onclick] {
+	background: grey;
+}
