@@ -1,0 +1,40 @@
+.my-button {
+	display: inline-block;
+	padding: 1rem 2rem;
+	text-decoration: none;
+	background: pink;
+	font: inherit;
+	text-align: center;
+}
+
+html {
+	color: #141414;
+}
+
+body {
+	font-size: 1.2em;
+}
+
+p {
+	font-style: italic;
+}
+
+article > * + * {
+	margin-top: 1em;
+}
+
+strong {
+	font-weight: 900;
+}
+
+.my-component {
+	font-weight: 1000;
+}
+
+.my-component strong {
+	font-weight: inherit;
+}
+
+aside strong {
+	font-weight: initial;
+}

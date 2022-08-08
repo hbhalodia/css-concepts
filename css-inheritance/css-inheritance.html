@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="./css-inheritance.css" rel="stylesheet" />
+		<title>CSS Inheritance</title>
+	</head>
+	<body>
+		<a href="http://example.com" class="my-button">I am a button link</a>
+		<article>
+			<p>This paragraph has italic text. Lorem ipsum dolor sit amet.</p>
+			<div>This is a div so has normal text.</div>
+			<p>This is another paragraph that has italic text.</p>
+		</article>
+		<h3>
+			The inherit keyword #
+			You can make any property inherit its parent's computed value with the inherit keyword. A useful way to use this keyword is to create exceptions.
+		</h3>
+		<article class="flow">
+			<h1>Controlling and utilising inheritance</h1>
+			<p>The <strong>bold elements inside a <code>&lt;strong&gt;</code></strong> have a <code>font-weight</code> of <code>900</code> by default. </p>
+			<div class="my-component">
+			  <p>This text is in a component called <code>.my-component</code>, which has a <code>font-weight</code> of <code>500</code>. </p>
+			</div>
+			<div class="my-component">
+				<p><strong>This <code>&lt;strong&gt;</code> element is inside <code>.my-component</code>. It inherits the <code>500</code> weight because it’s <code>font-weight</code> is set to <code>inherit</code>.</strong></p>
+			</div>
+		</article>
+		<h4>
+			The initial keyword #
+			Inheritance can cause problems with your elements and initial provides you with a powerful reset option.
+
+			You learned earlier that every property has a default value in CSS. The initial keyword sets a property back to that initial, default value.
+		</h4>
+		<article>
+			<p><strong>I am a strong element that is bold because that is the inherited user agent style.</strong></p>
+			<aside>
+			  <p><strong>I am a strong element but my font weight is normal because it is in an aside element.</strong></p>
+			</aside>
+		</article>
+		<h4>
+			The unset keyword #
+			The unset property behaves differently if a property is inheritable or not. If a property is inheritable, the unset keyword will be the same as inherit. If the property is not inheritable, the unset keyword is equal to initial.
+		</h4>
+	</body>
+</html>
