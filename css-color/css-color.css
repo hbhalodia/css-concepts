@@ -1,0 +1,79 @@
+
+.center {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.container {
+	display: flex;
+	margin: 10px auto;
+	width: 43%;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.box {
+	flex: auto;
+	border: 1px solid #ccc;
+	margin: 5px;
+	padding: 10px;
+}
+
+.color{
+	padding: 3px;
+	height: 100px;
+}
+
+.hex-color-1 {
+	background: #b71540;
+}
+
+.hex-color-2 {
+	background: #60a3bc;
+}
+
+.hex-color-3 {
+	background: #f6b93b;
+}
+
+.color-code {
+	padding-top: 20px;
+}
+
+.rgb-color-1 {
+	background: rgb( 183, 21, 64 );
+}
+
+.rgb-color-2 {
+	background: rgb( 96, 163, 188 );
+}
+
+.rgb-color-3 {
+	background: rgb( 246, 185, 59 );
+}
+
+.hsl-color-1 {
+	background: hsl( 344 79% 40% );
+}
+
+.hsl-color-2 {
+	background: hsl( 196 41% 56% );
+}
+
+.hsl-color-3 {
+	background: hsl( 40 91% 60% );
+}
+
+.my-element {
+	width: 250px;
+	height: 250px;
+	background: linear-gradient(#778ca3, #4b6584);
+	border: 5px solid;
+	border-top-color: lightsteelblue;
+	border-right-color: lightsteelblue;
+	border-bottom-color: lightslategray;
+	border-left-color: slategray;
+	box-shadow: 0px 0px 20px rgb(0 0 0 / 30%);
+	border-radius: 10px;
+	margin: 0 auto;
+}
