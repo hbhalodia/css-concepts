@@ -1,0 +1,12 @@
+@mixin button( $color: red, $background: white ) {
+	color: $color;
+	background: $background;
+}
+
+.informative {
+	@include button( white, blue );
+}
+
+.success {
+	@include button( white, green );
+}

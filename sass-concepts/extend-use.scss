@@ -1,0 +1,16 @@
+%palceholder-class {
+	border: 1px solid red;
+	padding: 5px;
+} // This css would be in use as its being extened by 2 classes.
+
+%do-not-extend {
+	display: none;
+} // This wont be executed or printed in main css file as it is not extended.
+
+.information {
+	@extend %palceholder-class;
+}
+
+.success {
+	@extend %palceholder-class;
+}

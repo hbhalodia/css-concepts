@@ -1,0 +1,39 @@
+$p_color: #000;
+
+@use 'partial1';
+@import "mixin-example.scss";
+@import "extend-use.scss";
+
+p {
+	color: $p_color;
+	font-family: partial1.$primary-font;
+}
+
+
+.class-nest {
+	// ... Some styling.
+	color: $p_color;
+
+	.class-nest-1 {
+		// ... some styling.
+		color: $p_color;
+	}
+
+	.class-nest-2 {
+		// .. some styling.
+		color: $p_color;
+
+		p {
+			color: $p_color;
+		}
+
+		span {
+			color: $p_color;
+		}
+
+		.class-nest-2-a {
+			// Some stylling.
+			color: $p_color;
+		}
+	}
+}

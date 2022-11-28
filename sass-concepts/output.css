@@ -1,0 +1,45 @@
+h1 {
+  font-family: Helvetica, sans-serif;
+  color: red;
+}
+
+.informative {
+  color: white;
+  background: blue;
+}
+
+.success {
+  color: white;
+  background: green;
+}
+
+.success, .information {
+  border: 1px solid red;
+  padding: 5px;
+}
+
+p {
+  color: #000;
+  font-family: Helvetica, sans-serif;
+}
+
+.class-nest {
+  color: #000;
+}
+.class-nest .class-nest-1 {
+  color: #000;
+}
+.class-nest .class-nest-2 {
+  color: #000;
+}
+.class-nest .class-nest-2 p {
+  color: #000;
+}
+.class-nest .class-nest-2 span {
+  color: #000;
+}
+.class-nest .class-nest-2 .class-nest-2-a {
+  color: #000;
+}
+
+/*# sourceMappingURL=output.css.map */
